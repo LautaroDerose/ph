@@ -41,7 +41,7 @@ const Card = ({ id, imgUrl, title, index, active, handleClick, description, deta
         // className="absolute w-full h-full object-cover rounded-[24px]"
       />
       {active !== id ? (
-        <div className='absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] lg:w-[30vw] lg:mb-40'>
+        <div className='absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] lg:w-[30vw] lg:mb-40 xl:mb-60'>
           <h3 style={{whiteSpace:'nowrap', }} className="font-semibold md:text-[26px]  xs:text-[18px] text-white a">
             {title}
           </h3>
