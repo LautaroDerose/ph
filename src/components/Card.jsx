@@ -68,7 +68,7 @@ const Card = ({ id, imgUrl, title, index, active, handleClick, description, deta
                   className='w-4/5  flex-col  border-l-2 border-white pl-4 hidden md:block'
                 >
                 <p className='text-white  '>{description}</p>
-                <button onClick={handleOpenModal} className='w-[50%] mt-3 py-1 border-2 bg-white text-black'>Ver Detalles</button>
+                <button onClick={handleOpenModal} className='w-[50%] mt-3 py-1  bg-white text-black'>Ver Detalles</button>
                 </motion.div>
               )}      
         </div>
