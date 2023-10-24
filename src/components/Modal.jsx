@@ -18,7 +18,7 @@ const Modal = ({ isOpen, onClose, title, details, description }) => {
   };
 
   return (
-    <div className="  mt-10 fixed inset-0 flex items-center justify-center z-50 overflow-y-auto">
+    <div className=" lg:w-[70%] md:w-[80%] mx-auto mt-10 fixed inset-0 flex items-center justify-center z-50 overflow-y-auto">
       <div className="fixed inset-0 bg-black opacity-50" onClick={onClose}></div>
       <div
         className="relative  p-4 md:p-8 bg-white rounded shadow-lg"
