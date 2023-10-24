@@ -24,7 +24,7 @@ const Modal = ({ isOpen, onClose, title, details, description }) => {
         className="relative  p-4 md:p-8 bg-white rounded shadow-lg"
         onScroll={handleModalScroll}
       >
-      <button className="absolute top-6 right-6  px-3 md:px-4 py-2 text-sm font-medium text-gray-700 bg-gray-200 rounded" onClick={onClose}>Cerrar</button>
+      <button className="absolute top-2 right-6 mt-6 px-3 md:px-4 py-2 text-sm font-medium text-gray-700 bg-gray-200 rounded" onClick={onClose}>Cerrar</button>
         <h1 className="font-bold text-green-500 text-xl mt-6 md:mt-0 md:text-4xl py-4">{title}</h1>
         
         <div className="p-4 md:hidden block ">
