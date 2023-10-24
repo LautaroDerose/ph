@@ -18,17 +18,17 @@ const Modal = ({ isOpen, onClose, title, details, description }) => {
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center z-50 overflow-y-auto">
+    <div className="  mt-10 fixed inset-0 flex items-center justify-center z-50 overflow-y-auto">
       <div className="fixed inset-0 bg-black opacity-50" onClick={onClose}></div>
       <div
-        className="relative w-[80vw] p-4 md:p-8 bg-white rounded shadow-lg"
+        className="relative  p-4 md:p-8 bg-white rounded shadow-lg"
         onScroll={handleModalScroll}
       >
         <h1 className="font-bold text-green-500 text-xl mt-6 md:mt-0 md:text-4xl py-4">{title}</h1>
         
         <div className="p-4 md:hidden block ">
-          <h3 className="font-bold text-xl">Descripcion</h3>
-          <p>{description}</p>
+          <h3 className="font-bold text-xl ">Descripcion</h3>
+          <p className="text-xs  ">{description}</p>
         </div>
         <div className="flex flex-col md:flex-row gap-8 p-4">
           <div className="md:w-1/2">
