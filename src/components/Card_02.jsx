@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import styles from '../styles';
 import { fadeIn } from '../utils/motion'
 
-const Card2 = ({ id, imgUrl, title, index, active, handleClick, description }) => {
+const Card2 = ({ id, imgUrl, title, index, active, handleClick, description, price }) => {
   const [showDescription, setShowDescription] = useState(false);
 
   useEffect(() => {
@@ -53,6 +53,7 @@ const Card2 = ({ id, imgUrl, title, index, active, handleClick, description }) =
             </div>
             <p className="font-normal text-[16px] leading-[20px] text-white uppercase ">Potencia tu Salud</p>
             <h2 className=" mt-2 font-semibold sm:text-[32px] text-[24px] text-white ">{title}</h2>
+            <h3 className=''>${price}</h3>
           </div>
           <div className="w-3/5 p-4">
             {showDescription && (

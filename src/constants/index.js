@@ -55,6 +55,7 @@ export const plansCard = [
     id: 'plan-1',
     imgUrl: '/plan-01.jpg',
     title: 'Disminuir de peso',
+    price: 8500,
     description: 'Plan 100% personalizado, no solo acorde a tu objetivo sino también respetando gustos, costumbres, horarios, intolerancias, salud y patologías específicas si las hubiera. Consiste en información específica que necesitas, una vez que ya arrancaste a cambiar tus hábitos hace un tiempo pero requerís hilar más fino para continuar avanzando.',
     details: [
       {
@@ -76,6 +77,7 @@ export const plansCard = [
     id: 'plan-2',
     imgUrl: '/plan-02.jpg',
     title: 'Aumentar masa muscular',
+    price: 8500,
     description: 'Plan 100% personalizado, no solo acorde a tu objetivo sino también respetando gustos, costumbres, horarios, intolerancias, salud y patologías específicas si las hubiera. Consiste en información específica que necesitas, una vez que ya arrancaste a cambiar tus hábitos hace un tiempo pero requerís hilar más fino para continuar avanzando.',
     details: [
       {
@@ -97,11 +99,12 @@ export const plansCard = [
     id: 'plan-3',
     imgUrl: '/plan-03.jpg',
     title: 'Plan Potenciar Habitos',
-    description: 'Plan 100% personalizado, no solo acorde a tu objetivo sino también respetando gustos, costumbres, horarios, intolerancias, salud y patologías específicas si las hubiera. Consiste en información específica que necesitas, una vez que ya arrancaste a cambiar tus hábitos hace un tiempo pero requerís hilar más fino para continuar avanzando.',
+    price: 7000,
+    description: 'Consiste en una guía de pautas generales básicas para comenzar un cambio de hábitos enfocado a tu objetivo. El plan estará enfocado en desplazar progresivamente una alimentación de mala calidad de años hacia una mejor, como paso inicial. *Podrás optar por: plan descenso de grasa ó plan para aumento de masa muscular',
     details: [
       {
         title_1: '¿PARA QUIÉN?',
-        content_1: 'Consiste en una guía de pautas generales básicas para comenzar un cambio de hábitos enfocado a tu objetivo.  La idea es desplazar progresivamente una alimentación de mala calidad de años a una más real, como paso inicial.<br/>*Podrás optar por: plan descenso de grasa ó plan para aumento de masa muscular.',
+        content_1: 'Sí venís pensando en darle un giro a tu alimentación de mala calidad y desorganizada, por una más real y saludable pero no sabés por donde comenzar a modificar hábitos de forma progresiva, este es el plan indicado.',
       },
       {
         title_2: '¿QUÉ INCLUYE?',
@@ -118,6 +121,7 @@ export const plansCard = [
     id: 'plan-4',
     imgUrl: '/plan-04.jpg',
     title: 'Entrenamiento online o presencial',
+    price: 4000,
     description: 'Plan 100% personalizado, no solo acorde a tu objetivo sino también respetando gustos, costumbres, horarios, intolerancias, salud y patologías específicas si las hubiera. Consiste en información específica que necesitas, una vez que ya arrancaste a cambiar tus hábitos hace un tiempo pero requerís hilar más fino para continuar avanzando.',
     details: [
       {

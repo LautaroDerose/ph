@@ -6,7 +6,7 @@ import { fadeIn } from '../utils/motion'
 import Modal from './Modal';
 
 
-const Card = ({ id, imgUrl, title, index, active, handleClick, description, details }) => {
+const Card = ({ id, imgUrl, title, index, active, handleClick, description, details, price }) => {
   const [showDescription, setShowDescription] = useState(false);
   useEffect(() => {
     if (active === id) {
@@ -58,6 +58,7 @@ const Card = ({ id, imgUrl, title, index, active, handleClick, description, deta
             <h2 className=" font-semibold  text-[24px] text-white">
               {title}
             </h2>
+            <h3 className='text-green-400 lg:text-end mr-4 underline'>${price}</h3>
             <button onClick={handleOpenModal} className='w-[50%] mt-3 py-1 border-2 bg-white text-black block md:hidden'>Ver Detalles</button>
           </div>        
               {showDescription && (
