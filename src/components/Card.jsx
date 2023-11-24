@@ -58,7 +58,6 @@ const Card = ({ id, imgUrl, title, index, active, handleClick, description, deta
             <h2 className=" font-semibold  text-[24px] text-white">
               {title}
             </h2>
-            <h3 className='text-green-400 lg:text-end mr-4 underline'>${price}</h3>
             <button onClick={handleOpenModal} className='w-[50%] mt-3 py-1 border-2 bg-white text-black block md:hidden'>Ver Detalles</button>
           </div>        
               {showDescription && (
@@ -75,7 +74,7 @@ const Card = ({ id, imgUrl, title, index, active, handleClick, description, deta
         </div>
       )}
     </motion.div>
-    <Modal isOpen={isModalOpen} onClose={handleCloseModal} title={title} details={details} description={description}>
+    <Modal isOpen={isModalOpen} onClose={handleCloseModal} title={title} details={details} description={description} price={price}>
       <div  >
         <h1 className="font-bold text-[#019EDD] py-4">{title}</h1>
         <p>{description}</p>

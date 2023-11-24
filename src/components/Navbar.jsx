@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { navLinks } from '../constants';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -29,7 +30,7 @@ const Navbar = () => {
 
 
         <div className=' fixed w-screen bg-slate-200 z-10 top-0  flex justify-between items-center h-16 mx-auto px-4 md:px-[2rem] lg:px-[15%] text-purple-500'>
-            <a href='/' className='w-[50px] border-2  hover:border-[#019EDD] rounded-full'>
+            <a href='/' className='w-[50px] border-2 hover:scale-110 duration-300 rounded-full'>
               <h1 className='text-purple-500 text-2xl font-black flex m-auto '>Potenciando <span className='text-green-500 '>Habitos</span></h1>
             </a>
             {/* <a href='/' className='w-[50px] border-2 border-white hover:border-[#019EDD] rounded-full'> <img src={`${scrolled ? "logoIcon_Wcolor_transparent.png" : "logoIcon_white_transparent.png"}`} alt="" className='w-[4rem] duration-300' /></a> */}
