@@ -28,26 +28,6 @@ export const navLinks = [
  
 ];
 
-// export const plansCard = [
-//     {
-//       id: 'plan-1',
-//       imgUrl: '/plan-01.jpg',
-//       title: 'Aumentar Masa muscular',
-//       description:'loremLorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet eligendi quam harum non explicabo consequuntur laudantium, molestiae doloribus voluptas enim dolores. Rem dolorum incidunt enim ab reiciendis atque qui repellat.'
-//     },
-//     {
-//       id: 'plan-2',
-//       imgUrl: '/plan-02.jpg',
-//       title: 'Plan Potenciar Habitos',
-//       description:'loremLorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet eligendi quam harum non explicabo consequuntur laudantium, molestiae doloribus voluptas enim dolores. Rem dolorum incidunt enim ab reiciendis atque qui repellat.'
-//     },
-//     {
-//       id: 'plan-3',
-//       imgUrl: '/plan-03.jpg',
-//       title: 'Disminuir de peso',
-//       description:'loremLorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet eligendi quam harum non explicabo consequuntur laudantium, molestiae doloribus voluptas enim dolores. Rem dolorum incidunt enim ab reiciendis atque qui repellat.',
-//     },
-//   ];
 
 
 export const plansCard = [

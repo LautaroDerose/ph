@@ -9,15 +9,17 @@ const Explore = () => {
   const [active, setActive] = useState('plan-2')
 
   return (
-    <section className={`sm:p-12 xs:p-8 px-4 py-6`} id="explore" >
-      <motion.div
+    <section className={`sm:p-12 xs:p-8 px-4 py-6 h-100vh`} id="explore" >
+      {/* <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="show"
         viewport={{once: false, amount: 0.25}}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
-      >
-        <TitleText title={<>Nuestros planes </>} textStyles="text-center" className='sm:text-lg md:text-xl' /> 
+      > */}
+      <div>
+
+        <h1 className="flex justify-center mx-auto sm:text-lg md:text-4xl font-bold text-purple-600 ">Nuestros planes </h1>
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {
             plansCard.map((world, index) => (
@@ -31,7 +33,7 @@ const Explore = () => {
             ))
           }
         </div>
-      </motion.div>
+      </div>
     </section>
   )
 }

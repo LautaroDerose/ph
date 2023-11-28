@@ -6,7 +6,7 @@ import { fadeIn } from '../utils/motion'
 import Modal from './Modal';
 
 
-const Card = ({ id, imgUrl, title, index, active, handleClick, description, details, price }) => {
+const Card = ({ id, imgUrl, title, description, details, price, index, active, handleClick }) => {
   const [showDescription, setShowDescription] = useState(false);
   useEffect(() => {
     if (active === id) {
@@ -31,14 +31,13 @@ const Card = ({ id, imgUrl, title, index, active, handleClick, description, deta
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
       className={`relative ${
         active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2] '
-      } flex items-center justify-center min-w-[170px]  h-[700px] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
+      } flex items-center justify-center min-w-[170px]  h-[70vh] transition-[flex] duration-[0.7s] ease-out-flex cursor-pointer`}
       onClick={() => handleClick(id)}
     >
       <img
         src={imgUrl}
         alt={title}
         className="absolute w-full h-full object-cover "
-        // className="absolute w-full h-full object-cover rounded-[24px]"
       />
       {active !== id ? (
         <div className='absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] lg:w-[30vw] lg:mb-40 xl:mb-60'>
@@ -48,10 +47,8 @@ const Card = ({ id, imgUrl, title, index, active, handleClick, description, deta
         </div>
       ) : (
         <div className="absolute bottom-0 p-8 justify-start w-full flex bg-[rgba(0,0,0,0.5)] ">
-        {/* <div className="absolute bottom-0 p-8 justify-start w-full flex bg-[rgba(0,0,0,0.5)] rounded-b-[24px]"> */}
           <div className='flex flex-col md:w-2/5'>
             <div className={`${styles.flexCenter} w-[60px] h-[60px] glassmorphism mb-[16px]`}>
-            {/* <div className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}> */}
               <BiRun size='8rem' className=' object-contain text-white'/>
             </div>
             <p className="font-normal text-[16px] leading-[20px] text-white uppercase">Potencia tu salud </p>
@@ -67,7 +64,7 @@ const Card = ({ id, imgUrl, title, index, active, handleClick, description, deta
                   transition={{ duration: 0.3 }}
                   className='w-4/5  flex-col  border-l-2 border-white pl-4 hidden md:block'
                 >
-                <p className='text-white  '>{description}</p>
+                <p className='text-white'>{description}</p>
                 <button onClick={handleOpenModal} className='w-[50%] mt-3 py-1  bg-white text-black'>Ver Detalles</button>
                 </motion.div>
               )}      
@@ -84,7 +81,4 @@ const Card = ({ id, imgUrl, title, index, active, handleClick, description, deta
   );
 };
 
-
-
 export default Card;
-
