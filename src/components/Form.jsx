@@ -142,7 +142,7 @@ function Form() {
           </form>
         </div>
       </div>
-      <div className='flex items-centers justify-between px-40 pt-3 bg-purple-950'>
+      <div className=' w-full flex flex-col lg:flex-row items-center gap-2 justify-between  lg:px-40 py-4 bg-purple-950'>
         {/* <div className="flex gap-2 items-center text-[#cccccc] hover:text-[#019EDD] ">
           <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/" className="justify-center block md:text-base text-xs mb-2  ">
             <i><FaLinkedin className="flex justify-center items-center text-3xl"/></i>
