@@ -18,7 +18,7 @@ const Hero = () => {
   return (
     <div className='h-[90vh] w-screen flex flex-col mt-16 p-10 items-center justify-center ' style={backgroundStyle}>
       <div className='lg:w-[50%] md:w-[75%] mb-24 text-center '>
-        <h1 className=''>Bienvenido a <p className='text-[#7014F2] px-3 text-3xl md:text-4xl font-black flex justify-center items-center '>Potenciando <span className='text-green-500 p-2'>Habitos</span></p></h1>
+        <h1 className=''>Bienvenido a <p className='text-[#7014F2] px-3 text-3xl md:text-4xl font-black flex justify-center items-center '>Potenciando <span className='text-green-500 p-2'>Hábitos</span></p></h1>
         <p className='mt-2 mb-4 px-3 lg:text-2xl md:text-lg sm:text-xs '>Te acompañamos a descubrir cómo llevar un estilo de vida saludable a través de un proceso orientado a hacer posible tus objetivos.</p>
         <div className='flex gap-2 justify-center'>
           <Link to= "https://forms.gle/Me4Q4JiddPts4MLf7" target="_blank">

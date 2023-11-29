@@ -6,7 +6,7 @@ import { Card, TitleText, TypingText } from "../components/";
 import { plansCard } from '../constants'
 
 const Explore = () => {
-  const [active, setActive] = useState('plan-2')
+  const [active, setActive] = useState('plan-3')
 
   return (
     <section className={`sm:p-12 xs:p-8 px-4 py-6 h-100vh`} id="explore" >

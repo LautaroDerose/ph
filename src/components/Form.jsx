@@ -1,6 +1,9 @@
 import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
+import { HiMail } from 'react-icons/hi'
+import { FaLinkedin, FaInstagram } from 'react-icons/fa'
+import { FaPhoneSquareAlt } from 'react-icons/fa'
 const SuccesAlert = () => {
 
   Swal.fire({
@@ -81,7 +84,7 @@ function Form() {
 
   return (
     <div id="">
-      <h1 className='flex items-center justify-center p-4 text-4xl font-bold text-purple-600'>Contactanos</h1>
+      <h1 className='flex items-center justify-center p-4 text-4xl font-bold text-purple-600'>Contáctanos</h1>
       <div className='bg-green-300  h-full md:h-[40vh] p-4 mx-auto flex items-center justify-center '>
         <div className='w-[100vw] flex items-center justify-center gap-8 '>
           <form
@@ -138,6 +141,32 @@ function Form() {
             </div>
           </form>
         </div>
+      </div>
+      <div className='flex items-centers justify-between px-40 pt-3 bg-purple-950'>
+        {/* <div className="flex gap-2 items-center text-[#cccccc] hover:text-[#019EDD] ">
+          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/" className="justify-center block md:text-base text-xs mb-2  ">
+            <i><FaLinkedin className="flex justify-center items-center text-3xl"/></i>
+          </a>
+          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/" className="justify-center block md:text-base text-xs mb-2  font-bold hover:underline">linkedin.com/company/atcagrimensura</a>
+        </div>          */}
+        <div className="flex gap-2 items-center">
+          <span className="justify-center block text-base mb-2 text-palette1">
+            <HiMail className="flex justify-center items-center text-3xl text-[#cccccc]"/>
+          </span>
+          <span href="#" className="justify-center block text-base mb-2 text-[#cccccc] font-bold">licnutricionsanchez@gmail.com</span>
+        </div>
+        <div className="flex gap-2 items-center">
+          <span className="justify-center block text-base mb-2 text-palette1">
+            <FaPhoneSquareAlt className="flex justify-center items-center text-3xl text-[#cccccc]"/>
+          </span>
+          <span href="#" className="justify-center block text-base mb-2 text-[#cccccc] font-bold">+549 2936 404723</span>
+        </div>
+        <div className="flex gap-2 items-center text-[#cccccc] hover:text-purple-400 ">
+          <a target="_blank" rel="noreferrer" href="https://instagram.com/nutricion_sanchezlucia?igshid=MmVlMjlkMTBhMg==" className="justify-center block md:text-base text-xs mb-2   ">
+            <i><FaInstagram className="flex justify-center items-center text-3xl"/></i>
+          </a>
+          <a target="_blank" rel="noreferrer" href="https://instagram.com/nutricion_sanchezlucia?igshid=MmVlMjlkMTBhMg==" className="justify-center block md:text-base text-xs mb-2  font-bold underline">@nutricion_sanchezlucia</a>
+        </div>         
       </div>
     </div>
   )
