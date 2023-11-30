@@ -19,14 +19,14 @@ const Modal = ({ isOpen, onClose, title, details, price, description }) => {
   };
 
   return (
-    <div className=" lg:w-[70%] md:w-[80%] h-[80vh] mx-auto mt-10 fixed inset-0 flex items-center justify-center z-50 overflow-y-auto">
-      <div className="fixed inset-0 bg-black opacity-50" onClick={onClose}></div>
+    <div className=" lg:w-[70%] md:w-[80%] md:h-[80vh] mx-auto mt-10 fixed inset-0 flex items-center justify-center z-50 overflow-y-auto">
+      <div className="fixed inset-0  bg-black opacity-50" onClick={onClose}></div>
       <div
         className="relative  p-4 md:p-8 bg-white rounded shadow-lg"
         onScroll={handleModalScroll}
       >
-      <button className="absolute top-2 right-6 mt-6 px-3 md:px-4 py-2 text-sm font-medium text-gray-700 bg-gray-200 hover:bg-slate-300 duration-300" onClick={onClose}>Cerrar</button>
-       <div className="flex items-center ">
+      <button className="absolute top-2 right-6 mt-2 px-3 md:px-4 py-2 text-sm font-medium text-gray-700 bg-gray-200 hover:bg-slate-300 duration-300" onClick={onClose}>Cerrar</button>
+       <div className="flex flex-col md:flex-row mt-3 items-center ">
        <h1 className="font-bold text-green-500 text-xl mt-6 md:mt-0 md:text-4xl py-4">{title}</h1>
         <h3 className='text-green-800 text-xl ml-4 underline'>${price}</h3>
        </div>
