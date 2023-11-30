@@ -6,7 +6,7 @@ import { fadeIn } from '../utils/motion'
 import Modal from './Modal';
 
 
-const Card = ({ id, imgUrl, title, description, details, price, index, active, handleClick }) => {
+const Card = ({ id, imgUrl,imgSRC, title, description, details, price, index, active, handleClick }) => {
   const [showDescription, setShowDescription] = useState(false);
   useEffect(() => {
     if (active === id) {
@@ -35,7 +35,7 @@ const Card = ({ id, imgUrl, title, description, details, price, index, active, h
       onClick={() => handleClick(id)}
     >
       <img
-        src={imgUrl}
+        src={imgSRC}
         alt={title}
         className="absolute w-full h-full object-cover "
       />

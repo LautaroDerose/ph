@@ -16,8 +16,10 @@ const About = () => {
   return (
     <div className=' flex flex-col justify-center items-center mt-12 '>      
       <div  className='h-[40%] w-screen flex mx-auto'>
-        <img src={aboutImage} alt="" className='h-[100%] w-[100%] object-cover' />
+        {/* <img src={aboutImage} alt="" className='h-[100%] w-[100%] object-cover' /> */}
+        <img src="https://i.postimg.cc/GpSFYwvy/mujer-joven-top-rosa-pie-entrenador33.jpg" alt="" className='h-[100%] w-[100%] object-cover' />
       </div>
+
       <div id='nosotros' className='flex flex-col lg:flex-row justify-center items-center px-6 lg:px-28 py-10 lg:min-w-[1280px]'>
         <h2  className='lg:w-4/12 md:w-[70%] font-semibold text-xl md:text-[24px] flex '> Transformando hábitos con nutrición y entrenamiento, mejorándo tu estilo de vida</h2>
         <p className='lg:w-8/12  justify-center text-justify text-xs md:text-lg md:mt-4 '>

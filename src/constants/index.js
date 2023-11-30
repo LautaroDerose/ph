@@ -34,6 +34,7 @@ export const plansCard = [
   {
     id: 'plan-1',
     imgUrl: '/plan-01.jpg',
+    imgSRC:"https://i.postimg.cc/NM3RJ6JG/pexels-karolina-grabowska-5714509.jpg",
     imgAlt: '',
     title: 'Disminuir de peso',
     authorImage:"Foto de Yaroslav Shuraev: https://www.pexels.com/es-es/foto/comida-moda-gente-mujer-8844393/",
@@ -58,6 +59,7 @@ export const plansCard = [
   {
     id: 'plan-2',
     imgUrl: '/plan-02.jpg',
+    imgSRC:"https://i.postimg.cc/Wz0gQdCG/vista-frontal-hombre-atletico-midiendo-biceps.jpg",
     imgAlt: '',
     title: 'Aumentar masa muscular',
     authorImage:"https://www.freepik.es/foto-gratis/vista-frontal-hombre-atletico-midiendo-biceps_6654569.htm#page=6&query=aumento%20e%20masa%20muscular&position=0&from_view=search&track=ais&uuid=e9012373-0649-4c50-bf70-bc6b5a464916",
@@ -82,6 +84,7 @@ export const plansCard = [
   {
     id: 'plan-3',
     imgUrl: '/plan-03.jpg',
+    imgSRC:"https://i.postimg.cc/fThxYvSB/joven-atletica-feliz-desayunando-batido-frutas-cocina.jpg",
     imgAlt: '',
     title: 'Plan Potenciar Hábitos',
     authorImage:"https://www.freepik.es/foto-gratis/joven-atletica-feliz-desayunando-batido-frutas-cocina_26346055.htm#page=6&query=food%20andd%20gym&position=5&from_view=search&track=ais&uuid=e0bc5341-0de9-49ab-ad46-d472006707f5",
@@ -106,6 +109,7 @@ export const plansCard = [
   {
     id: 'plan-4',
     imgUrl: '/plan-04.jpg',
+    imgSRC:"https://i.postimg.cc/ncYq2QvZ/gente-deportiva-tiro-completo-haciendo-ejercicio-dentro.jpg",
     imgAlt: '',
     title: 'Entrenamiento online o presencial',
     authorImage:"https://www.freepik.es/foto-gratis/gente-deportiva-tiro-completo-haciendo-ejercicio-dentro_23986178.htm#query=personal%20trainer&position=48&from_view=search&track=ais&uuid=22341193-2db0-4786-8a5f-6993b8b2179b",
