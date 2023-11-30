@@ -36,7 +36,7 @@ export const plansCard = [
     imgUrl: '/plan-01.jpg',
     imgSRC:"https://i.postimg.cc/NM3RJ6JG/pexels-karolina-grabowska-5714509.jpg",
     imgAlt: '',
-    title: 'Disminuir de peso',
+    title: 'Disminuir grasa corporal',
     authorImage:"Foto de Yaroslav Shuraev: https://www.pexels.com/es-es/foto/comida-moda-gente-mujer-8844393/",
     price: 8500,
     description: 'Plan 100% personalizado, no solo acorde a tu objetivo sino también respetando gustos, costumbres, horarios, intolerancias, salud y patologías específicas si las hubiera. Consiste en información específica que necesitas, una vez que ya arrancaste a cambiar tus hábitos hace un tiempo pero requerís hilar más fino para continuar avanzando.',
