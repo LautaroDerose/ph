@@ -8,7 +8,7 @@ const About = () => {
   
   const tab = '\u00A0'
   const styles = {
-    avatarContainer:"w-[44vh] flex flex-col justify-center items-center m-2 ",
+    avatarContainer:"w-[44vh] flex flex-col justify-center items-center  ",
     cardContainer: "lg:w-5/12 md:h-[40vh]  flex flex-col md:flex-row items-center text-center md:text-start   ",
     titleCard:' flex flex-col '
   }
@@ -27,11 +27,11 @@ const About = () => {
         </p>
       </div>  
 
-      <div className="w-full  relative flex flex-col lg:flex-row p-4 justify-center gap-2">
+      <div className="w-full  relative flex flex-col lg:flex-row p-4 justify-center gap-8">
         
-        <div className={ `${styles.cardContainer} bg-[#00F59B] `}>
-          <div className={`${styles.avatarContainer}`}>
-            <img src={avatar1b} alt="" className='w-[100%] px-6 ' />
+        <div className={ `${styles.cardContainer} bg-slate-200 border-2 border-[#00F59B] overflow-hidden `}>
+          <div className={`${styles.avatarContainer} `}>
+            <img src={avatar1b} alt="" className='w-full  ' />
           </div>
           <div className=' flex flex-col justify-center p-4 w-[60%] '>
             <div>
@@ -46,9 +46,9 @@ const About = () => {
           </div>
         </div>
         
-        <div className={ `${styles.cardContainer} bg-[#00F59B] `}>
+        <div className={ `${styles.cardContainer} bg-slate-200 border-2 border-[#00F59B] overflow-hidden `}>
           <div className={`${styles.avatarContainer}`}>
-            <img src={avatar2b} alt="" className='w-[100%] px-6 ' />
+            <img src={avatar2b} alt="" className='w-full ' />
           </div>
           <div className=' flex flex-col justify-center p-4 w-[60%] '>
             <div>

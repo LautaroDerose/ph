@@ -3,6 +3,7 @@ import About from './About';
 import Hero from './Hero';
 import Form from './Form';
 import { Plans } from '.';
+import WtspButton from './WtspButton';
 
 
 const Body = () => {
@@ -10,6 +11,7 @@ const Body = () => {
   return (
     <>
       <main>
+        <WtspButton />
         <div className="" >     
           <Hero />
         </div>

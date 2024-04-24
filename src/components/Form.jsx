@@ -142,7 +142,7 @@ function Form() {
           </form>
         </div>
       </div>
-      <div className=' w-full flex flex-col lg:flex-row items-center gap-2 justify-between  lg:px-40 py-4 bg-purple-950'>
+      <div className=' w-full flex flex-col lg:flex-row items-center gap-2 justify-between  lg:px-40 py-4 bg-slate-200'>
         {/* <div className="flex gap-2 items-center text-[#cccccc] hover:text-[#019EDD] ">
           <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/" className="justify-center block md:text-base text-xs mb-2  ">
             <i><FaLinkedin className="flex justify-center items-center text-3xl"/></i>
@@ -151,17 +151,17 @@ function Form() {
         </div>          */}
         <div className="flex gap-2 items-center">
           <span className="justify-center block text-base mb-2 text-palette1">
-            <HiMail className="flex justify-center items-center text-3xl text-[#cccccc]"/>
+            <HiMail className="flex justify-center items-center text-3xl text-purple-700"/>
           </span>
-          <span href="#" className="justify-center block text-base mb-2 text-[#cccccc] font-bold">licnutricionsanchez@gmail.com</span>
+          <span href="#" className="justify-center block text-base mb-2 text-purple-700 font-bold">licnutricionsanchez@gmail.com</span>
         </div>
         <div className="flex gap-2 items-center">
           <span className="justify-center block text-base mb-2 text-palette1">
-            <FaPhoneSquareAlt className="flex justify-center items-center text-3xl text-[#cccccc]"/>
+            <FaPhoneSquareAlt className="flex justify-center items-center text-3xl text-purple-700"/>
           </span>
-          <span href="#" className="justify-center block text-base mb-2 text-[#cccccc] font-bold">+549 2936 404723</span>
+          <span href="#" className="justify-center block text-base mb-2 text-purple-700 font-bold">+549 2936 404723</span>
         </div>
-        <div className="flex gap-2 items-center text-[#cccccc] hover:text-purple-400 ">
+        <div className="flex gap-2 items-center text-purple-700 hover:text-purple-400 ">
           <a target="_blank" rel="noreferrer" href="https://instagram.com/nutricion_sanchezlucia?igshid=MmVlMjlkMTBhMg==" className="justify-center block md:text-base text-xs mb-2   ">
             <i><FaInstagram className="flex justify-center items-center text-3xl"/></i>
           </a>

@@ -1,6 +1,6 @@
 import React, { useState} from 'react'
 import { Link } from 'react-router-dom';
-import backImage from '../assets/back-hero.jpg'
+import backImage from '../assets/back-hero-01.jpg'
 import { BsArrowDownCircle, } from 'react-icons/bs'
 
 const Hero = () => {
