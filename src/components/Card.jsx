@@ -6,7 +6,7 @@ import { fadeIn } from '../utils/motion'
 import Modal from './Modal';
 
 
-const Card = ({ id, imgUrl,imgSRC, title, description, details, price, index, active, handleClick }) => {
+const Card = ({ id, imgUrl,imgSRC, title, description, details, price, priceD, index, active, handleClick }) => {
   const [showDescription, setShowDescription] = useState(false);
   useEffect(() => {
     if (active === id) {
@@ -72,7 +72,7 @@ const Card = ({ id, imgUrl,imgSRC, title, description, details, price, index, ac
         </div>
       )}
     </motion.div>
-    <Modal isOpen={isModalOpen} onClose={handleCloseModal} title={title} details={details} description={description} price={price}>
+    <Modal isOpen={isModalOpen} onClose={handleCloseModal} title={title} details={details} description={description} price={price} priceD={priceD}>
       <div  >
         <h1 className="font-bold text-[#019EDD] py-4">{title}</h1>
         <p>{description}</p>

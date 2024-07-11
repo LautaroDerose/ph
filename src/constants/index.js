@@ -38,7 +38,8 @@ export const plansCard = [
     imgAlt: '',
     title: 'Disminuir grasa corporal',
     authorImage:"Foto de Yaroslav Shuraev: https://www.pexels.com/es-es/foto/comida-moda-gente-mujer-8844393/",
-    price: 16000,
+    price: 20000,
+    priceD: 16000,
     description: 'Plan 100% personalizado, no solo acorde a tu objetivo sino también respetando gustos, costumbres, horarios, intolerancias, salud y patologías específicas si las hubiera. Consiste en información específica que necesitas, una vez que ya arrancaste a cambiar tus hábitos hace un tiempo pero requerís hilar más fino para continuar avanzando.',
     details: [
       {
@@ -63,7 +64,8 @@ export const plansCard = [
     imgAlt: '',
     title: 'Aumentar masa muscular',
     authorImage:"https://www.freepik.es/foto-gratis/vista-frontal-hombre-atletico-midiendo-biceps_6654569.htm#page=6&query=aumento%20e%20masa%20muscular&position=0&from_view=search&track=ais&uuid=e9012373-0649-4c50-bf70-bc6b5a464916",
-    price: 16000,
+    price: 20000,
+    priceD: 16000,
     description: 'Plan 100% personalizado, no solo acorde a tu objetivo sino también respetando gustos, costumbres, horarios, intolerancias, salud y patologías específicas si las hubiera. Consiste en información específica que necesitas, una vez que ya arrancaste a cambiar tus hábitos hace un tiempo pero requerís hilar más fino para continuar avanzando.',
     details: [
       {
@@ -88,7 +90,8 @@ export const plansCard = [
     imgAlt: '',
     title: 'Plan Potenciar Hábitos',
     authorImage:"https://www.freepik.es/foto-gratis/joven-atletica-feliz-desayunando-batido-frutas-cocina_26346055.htm#page=6&query=food%20andd%20gym&position=5&from_view=search&track=ais&uuid=e0bc5341-0de9-49ab-ad46-d472006707f5",
-    price: 13000,
+    price: 15600,
+    priceD: 13000,
     description: 'Consiste en una guía de pautas generales básicas para comenzar un cambio de hábitos enfocado a tu objetivo. El plan estará enfocado en desplazar progresivamente una alimentación de mala calidad de años hacia una mejor, como paso inicial. *Podrás optar por: plan descenso de grasa ó plan para aumento de masa muscular',
     details: [
       {
@@ -113,7 +116,8 @@ export const plansCard = [
     imgAlt: '',
     title: 'Entrenamiento online o presencial',
     authorImage:"https://www.freepik.es/foto-gratis/gente-deportiva-tiro-completo-haciendo-ejercicio-dentro_23986178.htm#query=personal%20trainer&position=48&from_view=search&track=ais&uuid=22341193-2db0-4786-8a5f-6993b8b2179b",
-    price: 10000,
+    price: 12000,
+    priceD: 10000,
     description: 'Plan 100% personalizado, no solo acorde a tu objetivo sino también respetando gustos, costumbres, horarios, intolerancias, salud y patologías específicas si las hubiera. Consiste en información específica que necesitas, una vez que ya arrancaste a cambiar tus hábitos hace un tiempo pero requerís hilar más fino para continuar avanzando.',
     details: [
       {

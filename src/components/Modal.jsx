@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
-const Modal = ({ isOpen, onClose, title, details, price, description }) => {
+const Modal = ({ isOpen, onClose, title, details, price, priceD, description }) => {
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = "hidden";
@@ -28,7 +28,8 @@ const Modal = ({ isOpen, onClose, title, details, price, description }) => {
       <button className="absolute top-2 right-6 mt-2 px-3 md:px-4 py-2 text-sm font-medium text-gray-700 bg-gray-200 hover:bg-slate-300 duration-300" onClick={onClose}>Cerrar</button>
        <div className="flex flex-col md:flex-row mt-3 items-center ">
        <h1 className="font-bold text-green-500 text-xl mt-6 md:mt-0 md:text-4xl py-4">{title}</h1>
-        <h3 className='text-green-800 text-xl ml-4 underline'>${price}</h3>
+        <h3 className='text-red-800 text-xl ml-4 line-through '>${price}</h3>
+        <h3 className='bg-green-700 text-white px-4 py-2 text-xl font-medium ml-4 underline rounded-full'>${priceD}</h3>
        </div>
 
         <div className="p-4 md:hidden block ">
