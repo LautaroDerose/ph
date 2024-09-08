@@ -116,8 +116,8 @@ export const plansCard = [
     imgAlt: '',
     title: 'Entrenamiento online o presencial',
     authorImage:"https://www.freepik.es/foto-gratis/gente-deportiva-tiro-completo-haciendo-ejercicio-dentro_23986178.htm#query=personal%20trainer&position=48&from_view=search&track=ais&uuid=22341193-2db0-4786-8a5f-6993b8b2179b",
-    price: 12000,
-    priceD: 10000,
+    price: 15000,
+    priceD: 12000,
     description: 'Plan 100% personalizado, no solo acorde a tu objetivo sino también respetando gustos, costumbres, horarios, intolerancias, salud y patologías específicas si las hubiera. Consiste en información específica que necesitas, una vez que ya arrancaste a cambiar tus hábitos hace un tiempo pero requerís hilar más fino para continuar avanzando.',
     details: [
       {
