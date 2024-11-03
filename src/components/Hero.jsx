@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import backImage from '../assets/back-footer.jpg'; // Asegúrate de tener una imagen vertical aquí
+import backImage from '../assets/back-footer-min.jpg'; // Asegúrate de tener una imagen vertical aquí
 import backImage2 from '../assets/back-hero-nov-2.png'; // Asegúrate de tener una imagen vertical aquí
 import logo from '../assets/logo-3.png'; 
 import { FaCalendarAlt, FaDumbbell, FaShoppingCart, FaUtensils, FaFileAlt, FaWhatsapp } from 'react-icons/fa';
