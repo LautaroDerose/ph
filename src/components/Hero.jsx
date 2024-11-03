@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import backImage from '../assets/portada-v-3.jpg'; // Asegúrate de tener una imagen vertical aquí
+import backImage from '../assets/back-footer.jpg'; // Asegúrate de tener una imagen vertical aquí
 import backImage2 from '../assets/back-hero-nov-2.png'; // Asegúrate de tener una imagen vertical aquí
 import logo from '../assets/logo-3.png'; 
 import { FaCalendarAlt, FaDumbbell, FaShoppingCart, FaUtensils, FaFileAlt, FaWhatsapp } from 'react-icons/fa';
@@ -19,7 +19,7 @@ export default function Component() {
             />
             <div className='flex flex-col '>
               <h1 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-white text-center px-4"> RETO 28 días</h1>
-              <span className=" text-xl md:text-2xl lg:text-3xl text-purple-500 font-bold text-center px-4">"Potenciar Hábitos"</span>
+              <span className=" text-xl md:text-2xl lg:text-3xl text-purple-300 font-bold text-center px-4">"Potenciar Hábitos"</span>
             </div>
             <div className=" mx-8 md:w-1/2 lg:w-fit flex flex-col md:flex-row  items-center text-center mt-6 bg-[#7014F2] text-white px-2 md:px-8 py-2 md:py-4 rounded-full font-bold text-lg transition-all duration-300 ease-in-out hover:bg-[#5010b0] hover:shadow-lg transform hover:-translate-y-1">
              <div className='hidden md:flex items-center justify-center '>
