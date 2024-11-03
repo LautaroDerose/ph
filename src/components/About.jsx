@@ -20,8 +20,8 @@ const About = () => {
         <img src="https://i.postimg.cc/GpSFYwvy/mujer-joven-top-rosa-pie-entrenador33.jpg" alt="" className='h-[100%] w-[100%] object-cover' />
       </div>
 
-      <div id='nosotros' className='flex flex-col lg:flex-row justify-center items-center px-6 lg:px-28 py-10 lg:min-w-[1280px]'>
-        <h2  className='lg:w-4/12 md:w-[70%] font-semibold text-xl md:text-[24px] flex '> Transformando hábitos con nutrición y entrenamiento, mejorándo tu estilo de vida</h2>
+      <div id='nosotros' className='flex flex-col  lg:flex-row justify-center items-center my-4 lg:my-10 px-6 lg:px-28 py-10 lg:min-w-[1280px]'>
+        <h2  className='lg:w-4/12 md:w-[70%] font-semibold text-xl md:text-[24px] flex mb-4 md:mb-6 lg:mb-0 '> Transformando hábitos con nutrición y entrenamiento, mejorándo tu estilo de vida</h2>
         <p className='lg:w-8/12  justify-center text-justify text-xs md:text-lg md:mt-4 '>
           Este es un espacio creado y pensado en la salud, con el fín de que tus objetivos sean claros, posibles y sostenibles en el tiempo, a través de una alimentación saludable y la actividad física. <strong>Te proponemos buscar tu mejor versión, combinando Nutrición y Entrenamiento</strong>. Nuestra meta es que le des a tu cuerpo lo que realmente necesita con un plan 100% personalizado, eligiendo vos tu objetivo.
         </p>
@@ -60,7 +60,9 @@ const About = () => {
               <p className='font-regular text-xs'>Hipertrofia - Biomecánica aplicada al entrenamiento de Fuerza - Estética y Composición Corporal - Entrenamiento Funcional</p>
             </div>
           </div>
-        </div>        
+        </div>     
+      
+
       </div>
     </div>
   )

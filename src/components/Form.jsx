@@ -3,6 +3,7 @@ import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import { HiMail } from 'react-icons/hi'
 import { FaLinkedin, FaInstagram } from 'react-icons/fa'
+import backFooter from '../assets/footer-back.png'; // Asegúrate de tener una imagen vertical aquí
 import { FaPhoneSquareAlt } from 'react-icons/fa'
 const SuccesAlert = () => {
 
@@ -84,18 +85,18 @@ function Form() {
 
   return (
     <div id="">
-      <h1 className='flex items-center justify-center p-4 text-4xl font-bold text-purple-600'>Contáctanos</h1>
-      <div className='bg-green-300  h-full md:h-[40vh] p-4 mx-auto flex items-center justify-center '>
-        <div className='w-[100vw] flex items-center justify-center gap-8 '>
+      <h1 className='flex items-center justify-center p-4 text-4xl font-bold text-purple-600 mb-2 lg:mb-4 lg:mt-2'>Contáctanos</h1>
+      <div className=' h-full md:h-[40vh] p-4 mx-auto flex items-center justify-center bg-cover bg-center '  style={{ backgroundImage: `url(${backFooter})` }}>
+        <div className=' flex items-center justify-center gap-8 '>
           <form
             className=' h-[20%] mx-auto my-auto md:p-0'
             ref={form}
             onSubmit={sendEmail}
           >
-            <div className='flex w-full justify-center flex-wrap gap-4 '>
-              <div className=' w-[100%] md:w-[45%]'>
+            <div className='flex w-full justify-between flex-wrap gap-y-4 shadow-xl p-4 '>
+              <div className=' w-full md:w-[48%] '>
                 <input
-                  className='w-full  my-1 p-2  rounded-lg text-md text-slate-800 bg-green-200 outline-none hover:-translate-y-1 focus:shadow-md duration-300'
+                  className='w-full  my-1 p-2  rounded-lg text-md text-slate-800 placeholder:text-slate-500 bg-green-200  outline-none hover:-translate-y-1 focus:shadow-md duration-300'
                   id='name'
                   type='text'
                   name='user_name'
@@ -106,17 +107,17 @@ function Form() {
                   type="text" 
                   name="user_phone" 
                   placeholder='Numero de Telefono' 
-                  className='w-full my-1 p-2  rounded-lg text-md text-slate-800 bg-green-200 outline-none hover:-translate-y-1 focus:shadow-md duration-300' 
+                  className='w-full my-1 p-2  rounded-lg text-md text-slate-800 placeholder:text-slate-500 bg-green-200  outline-none hover:-translate-y-1 focus:shadow-md duration-300' 
                 />
                 <input
-                  className='w-full my-1 p-2 rounded-lg text-md text-slate-800 bg-green-200 outline-none hover:-translate-y-1 focus:shadow-md duration-300'
+                  className='w-full my-1 p-2 rounded-lg text-md text-slate-800 placeholder:text-slate-500 bg-green-200  outline-none hover:-translate-y-1 focus:shadow-md duration-300'
                   id='email'
                   type='email'
                   name='user_email'
                   placeholder='Ingrese su email de contacto'
                 />
                 <input
-                  className={`w-full my-1 p-2 rounded-lg text-md bg-green-200 outline-none hover:-translate-y-1 duration-300 ${emailMatch ? '' : 'border-red-500'
+                  className={`w-full my-1 p-2 rounded-lg text-md bg-green-200 placeholder:text-slate-500 outline-none hover:-translate-y-1 duration-300 ${emailMatch ? '' : 'border-red-500'
                     }`}
                   id='confirm_email'
                   type='email'
@@ -125,16 +126,16 @@ function Form() {
                   onChange={() => setEmailMatch(true)}
                 />
               </div>
-              <div className=' w-[100%] md:w-[45%] '>
+              <div className=' w-[100%] md:w-[48%] '>
                 <textarea
-                  className='w-full min-h-[100px] h-full p-2 rounded-lg text-md text-slate-800 bg-green-200 resize-none outline-none hover:-translate-y-1 focus:shadow-md duration-300'
+                  className='w-full min-h-[100px] h-full p-2 rounded-lg text-md text-slate-800 placeholder:text-slate-500 bg-green-200  resize-none outline-none hover:-translate-y-1 focus:shadow-md duration-300'
                   id='message'
                   name='message'
                   placeholder='¿Cuál es su consulta?'
                 />
               </div>
               <input
-                className='bg-purple-400 hover:bg-purple-500 font-medium w-full md:w-[92%] text-center rounded-md py-3 hover:text-black  duration-300'
+                className='bg-purple-400 hover:bg-purple-500 font-medium w-full  text-center rounded-md py-3 text-amber-400 hover:text-amber-300  duration-300'
                 type='submit'
                 value='Enviar'
               />
@@ -159,7 +160,7 @@ function Form() {
           <span className="justify-center block text-base mb-2 text-palette1">
             <FaPhoneSquareAlt className="flex justify-center items-center text-3xl text-purple-700"/>
           </span>
-          <span href="#" className="justify-center block text-base mb-2 text-purple-700 font-bold">+549 2936 404723</span>
+          <span href="#" className="justify-center block text-base mb-2 text-purple-700 font-bold">+549 2936 403573</span>
         </div>
         <div className="flex gap-2 items-center text-purple-700 hover:text-purple-400 ">
           <a target="_blank" rel="noreferrer" href="https://instagram.com/nutricion_sanchezlucia?igshid=MmVlMjlkMTBhMg==" className="justify-center block md:text-base text-xs mb-2   ">
