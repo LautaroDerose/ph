@@ -85,8 +85,8 @@ function Form() {
 
   return (
     <div id="">
-      <h1 className='flex items-center justify-center p-4 text-4xl font-bold text-purple-600 mb-2 lg:mb-4 lg:mt-2'>Contáctanos</h1>
-      <div className=' h-full md:h-[40vh] p-4 mx-auto flex items-center justify-center bg-cover bg-center '  style={{ backgroundImage: `url(${backFooter})` }}>
+      <h1 className='flex items-center justify-center p-4 text-4xl font-bold text-purple-600 '>Contáctanos</h1>
+      <div className='h-full md:h-[40vh] p-4 mx-auto flex items-center justify-center lg:bg-cover bg-center '  style={{ backgroundImage: `url(${backFooter})` }}>
         <div className=' flex items-center justify-center gap-8 '>
           <form
             className=' h-[20%] mx-auto my-auto md:p-0'
