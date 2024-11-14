@@ -48,25 +48,25 @@ const Card = ({ id, imgSRC, title, description, details, price, priceD, index, a
             transition={{ duration: 0.5 }}
           >
             <div className="absolute inset-0 bg-black bg-opacity-30 backdrop-blur-[2px]"></div>
-            <h3 className="font-semibold text-2xl text-white z-10 text-center px-4">
+            <h3 className="font-semibold text-xl md:text-2xl text-white z-10 text-center px-4">
               {title}
             </h3>
           </motion.div>
         ) : (
           <motion.div
-            className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-black to-transparent"
+            className="absolute bottom-0 left-0 right-0 px-6 py-2 md:p-8 bg-gradient-to-t from-black to-transparent"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
             <div className="flex flex-col md:flex-row md:items-end md:justify-between">
-              <div className="mb-4 md:mb-0">
+              <div className="mb-2 md:mb-0">
                 <motion.div
-                  className="w-16 h-16 mb-4 bg-white bg-opacity-20 rounded-full flex items-center justify-center"
+                  className="w-16 h-16 mb-4 bg-white bg-opacity-20 rounded-full hidden md:flex items-center justify-center"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                 >
-                  <div className="hidden md:flex justify-center items-center w-[80px] h-[80px] glassmorphism">
+                  <div className="md:flex justify-center items-center w-[80px] h-[80px] glassmorphism">
                     <BiRun size="3rem" className="object-contain text-white" />
                   </div>
                 </motion.div>
@@ -104,7 +104,7 @@ const Card = ({ id, imgSRC, title, description, details, price, priceD, index, a
                       
                     </motion.div>
                   )}
-                <div className='flex items-center justify-end'>
+                <div className='flex my-2 items-center justify-end'>
                   <button
                     onClick={handleOpenModal}
                     className="px-2 py-1 mt-2 md:hidden bg-white text-black rounded-full font-medium"
