@@ -99,7 +99,7 @@ const About = () => {
                 />
               </div> */}
               <div className={`md:flex-shrink-0`}>
-                <img src={member.image} alt="" className="h-90  object-cover h-full md:w-48 lg:w-full" />
+                <img src={member.image} alt="" className=" h-[40vh] w-full object-cover md:h-full md:w-48 lg:w-full" />
               </div>
               {/* <div className={`${styles.avatarContainer} `}>
                 <img src={member.image} alt="" className='h-full  ' />
