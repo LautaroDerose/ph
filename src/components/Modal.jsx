@@ -36,10 +36,10 @@ const Modal = ({ isOpen, onClose, title, details, price, priceD, description }) 
             onScroll={handleModalScroll}
           >
             <div className="sticky top-0 z-10 flex justify-between items-center p-6 bg-white border-b">
-              <div className="flex gap-4 ">
+              <div className="flex gap-4 items-center ">
                 <h1 className="text-3xl font-bold text-green-600">{title}</h1>
                 <div className="flex flex-wrap items-center gap-4">
-                  <span className="text-2xl font-semibold text-red-600 line-through">${price}</span>
+                  {/* <span className="text-2xl font-semibold text-red-600 line-through">${price}</span> */}
                   <span className="px-4 py-2 text-2xl font-bold text-white bg-green-600 rounded-full">${priceD}</span>
                 </div>
               </div>

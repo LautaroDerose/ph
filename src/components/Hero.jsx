@@ -22,9 +22,9 @@ export default function Component() {
               <span className=" text-xl md:text-2xl lg:text-3xl text-purple-300 font-bold text-center px-4">"Potenciar Hábitos"</span>
             </div>
             <div className=" mx-8 md:w-1/2 lg:w-fit flex flex-col md:flex-row  items-center text-center mt-6 bg-[#7014F2] text-white px-2 md:px-8 py-2 md:py-4 rounded-full font-bold text-lg transition-all duration-300 ease-in-out hover:bg-[#5010b0] hover:shadow-lg transform hover:-translate-y-1">
-             <div className='hidden md:flex items-center justify-center '>
-              <FaWhatsapp className='mx-auto my-auto text-white md:text-4xl lg:text-2xl mr-4'  />
-             </div>
+              <div className='hidden md:flex items-center justify-center '>
+                <FaWhatsapp className='mx-auto my-auto text-white md:text-4xl lg:text-2xl mr-4'  />
+              </div>
               <a
                 href='https://api.whatsapp.com/send/?phone=5492936403573'
                 className="inline-block "
@@ -73,15 +73,15 @@ export default function Component() {
           <div className="text-center mb-8">
             <p className="text-2xl font-bold text-green-400 mb-2">
             {/* <p className="text-2xl font-bold text-[#7014F2] mb-2"> */}
-              Valor Lanzamiento: <span className="text-3xl">$28.000</span>
+              Valor Lanzamiento: <span className="text-3xl">$25.000</span>
             </p>
             {/* <p className="text-gray-600">
               Hasta el 30/11 - <span className="line-through">Precio Regular: $32.000</span>
             </p> */}
             <p className="text-gray-600">
-              Solo por Noviembre - <span className="line-through">Precio Regular: $32.000</span>
+              <span className="line-through">Precio Regular: $32.000</span>
             </p>
-            <p className="text-sm text-green-600 font-semibold">¡Ahorra $4.000 inscribiéndote ahora!</p>
+            <p className="text-sm text-green-600 font-semibold">¡Ahorra $7.000 inscribiéndote ahora!</p>
           </div>
 
           

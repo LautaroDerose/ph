@@ -124,7 +124,7 @@ const Card = ({ id, imgSRC, title, description, details, price, priceD, index, a
         onClose={handleCloseModal}
         title={title}
         details={details}
-        price={price}
+        // price={price}
         priceD={priceD}
         description={description}
       />
